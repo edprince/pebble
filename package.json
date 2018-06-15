@@ -1,0 +1,28 @@
+{
+  "name": "pebble-css",
+  "version": "0.1.0",
+  "description": "Lightweight minimal CSS framework",
+  "main": "index.js",
+  "files": [
+    "pebble.css"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edprince/pebble.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "pebble",
+    "lightweight"
+  ],
+  "author": "Ed Prince",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edprince/pebble/issues"
+  },
+  "homepage": "https://github.com/edprince/pebble#readme"
+}

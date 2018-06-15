@@ -108,9 +108,6 @@
     float: left;
   }
 }
-body {
-  background: whitesmoke;
-}
 
 body * {
   font-family: 'Lato', sans-serif;
@@ -126,6 +123,7 @@ code {
   margin-top: 1em;
   box-sizing: border-box;
   line-height: 4em;
+  border-radius: 5px;
 }
 
 blockquote {
@@ -136,13 +134,18 @@ blockquote {
   font-style: italic;
 }
 
-input, select {
+input, select, textarea {
   background: whitesmoke;
   padding: .8em;
   border: none;
   outline: none;
   box-sizing: border-box;
   width: 100%;
+}
+
+input[type="color"] {
+  padding: 0;
+  width: 30px;
 }
 
 option {
@@ -176,6 +179,16 @@ hr {
   padding: .8em 1.5em;
   cursor: pointer;
   margin-bottom: 1em;
+}
+
+.btn-red {
+  background: #ef5350;
+  color: white;
+}
+
+.btn-blue {
+  background: #26c6da;
+  color: white;
 }
 
 .muted {
