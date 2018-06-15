@@ -1,2 +1,2 @@
 # pebble
-Lightweight CSS framework
+Lightweight CSS framework - edprince.github.io/pebble-css
