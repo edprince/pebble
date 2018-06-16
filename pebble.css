@@ -112,7 +112,18 @@
 body * {
   font-family: 'Lato', sans-serif;
   color: #25292e;
-  line-height: 25px;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  color: #2a7ae2;
+}
+
+a:visited {
+  color: #1756a9;
 }
 
 code {
@@ -173,8 +184,8 @@ hr {
 }
 
 .btn {
-  font-weight: bold;
   border: none;
+  border-radius: 5px;
   color: white;
   padding: .8em 1.5em;
   cursor: pointer;
